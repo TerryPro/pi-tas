@@ -1,0 +1,10 @@
+# 全仓统一以 LF 存储与检出。
+# Windows 上 core.autocrlf=true 会在检出时把源码改成 CRLF，
+# 导致跨平台协作时每个文件都显示为“已修改”。这里显式固定住。
+* text=auto eol=lf
+
+# 二进制，不参与换行符转换
+*.png binary
+*.jpg binary
+*.webp binary
+*.tgz binary

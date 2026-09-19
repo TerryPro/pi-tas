@@ -1,0 +1,10 @@
+node_modules/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local analysis runs produced by /tsa
+tsa-run-*/
