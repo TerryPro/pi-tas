@@ -1,6 +1,6 @@
 {
   "name": "pi-tsa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Time-series analysis pipeline for Pi: the /tsa command scaffolds an isolated uv environment and a skill-driven 5-step workflow that ends in a Chinese markdown report.",
   "keywords": [
     "pi-package",
@@ -25,5 +25,10 @@
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
   }
 }

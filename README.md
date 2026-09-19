@@ -11,7 +11,7 @@
 
 ```bash
 pi install /absolute/path/to/pi-extension      # 本地目录
-pi install git:github.com/TerryPro/pi-tas@v0.1.0  # 或 npm
+pi install git:github.com/TerryPro/pi-tas@v0.1.1  # 或 npm
 ```
 
 依赖：`uv >= 0.4`（<https://docs.astral.sh/uv/>）。Python 依赖由包自己声明，首次运行会联网安装。
